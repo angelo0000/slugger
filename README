@@ -1,0 +1,13 @@
+This is a simple plugin that allows you to create slugs for text input fields in js.
+Given the input:
+
+<input type="text" class="slugme" />
+<span class="slug" />
+
+You can say:
+
+$('.slugme').slugger();
+
+As you type in the input field, the slug is then updated in the target element. By default 
+the place the slug is placed is any element with the .slug class.  You can pass options to
+the slugger call for changing the place the slug is placed.
